@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot('5985954584:AAHko-3Y2e8BhuDTU0oC71FdxYPeN9QF5jo')
+bot = telebot.TeleBot('5972543767:AAGasL1RzQBcy8dB-ko7e3HB6e-nUJZNNM0')
 
 @bot.message_handler(commands=["start"])
 def repeat_all_messages(message): # Название функции не играет никакой роли
